@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 2;
+  text-align: center;
+  padding: min(5%, 50px);
+}
+
+.main h2 {
+  font-size: 1.8em;
+}
